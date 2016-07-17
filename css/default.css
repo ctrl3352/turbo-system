@@ -1,0 +1,572 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/*
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom. */
+/* line 8, ../sass/_reset.sass */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 13, ../sass/_reset.sass */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML5 display definitions */
+/*========================================================================== */
+/* line 20, ../sass/_reset.sass */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 23, ../sass/_reset.sass */
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 27, ../sass/_reset.sass */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 31, ../sass/_reset.sass */
+[hidden], template {
+  display: none;
+}
+
+/* Links */
+/*========================================================================== */
+/* line 37, ../sass/_reset.sass */
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+/* line 40, ../sass/_reset.sass */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics */
+/*========================================================================== */
+/* line 46, ../sass/_reset.sass */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 49, ../sass/_reset.sass */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 52, ../sass/_reset.sass */
+dfn {
+  font-style: italic;
+}
+
+/* line 55, ../sass/_reset.sass */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 59, ../sass/_reset.sass */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 63, ../sass/_reset.sass */
+small {
+  font-size: 80%;
+}
+
+/* line 66, ../sass/_reset.sass */
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 72, ../sass/_reset.sass */
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+/* line 79, ../sass/_reset.sass */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content */
+/*========================================================================== */
+/* line 85, ../sass/_reset.sass */
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+/* line 89, ../sass/_reset.sass */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content */
+/*========================================================================== */
+/* line 95, ../sass/_reset.sass */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 100, ../sass/_reset.sass */
+pre {
+  overflow: auto;
+}
+
+/* line 103, ../sass/_reset.sass */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms */
+/*========================================================================== */
+/* line 110, ../sass/_reset.sass */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 115, ../sass/_reset.sass */
+button {
+  overflow: visible;
+  text-transform: none;
+}
+
+/* line 119, ../sass/_reset.sass */
+select {
+  text-transform: none;
+}
+
+/* line 122, ../sass/_reset.sass */
+button, html input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 127, ../sass/_reset.sass */
+input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 131, ../sass/_reset.sass */
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+/* line 134, ../sass/_reset.sass */
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 138, ../sass/_reset.sass */
+input {
+  line-height: normal;
+}
+/* line 139, ../sass/_reset.sass */
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/* line 143, ../sass/_reset.sass */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+/* line 147, ../sass/_reset.sass */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/* line 149, ../sass/_reset.sass */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 154, ../sass/_reset.sass */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 157, ../sass/_reset.sass */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 162, ../sass/_reset.sass */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 166, ../sass/_reset.sass */
+textarea {
+  overflow: auto;
+}
+
+/* line 169, ../sass/_reset.sass */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables */
+/*========================================================================== */
+/* line 175, ../sass/_reset.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 179, ../sass/_reset.sass */
+td, th {
+  padding: 0;
+}
+
+/* line 182, ../sass/_reset.sass */
+ol, li {
+  list-style: none;
+}
+
+/* line 185, ../sass/_reset.sass */
+ul {
+  -webkit-padding-start: 0px;
+}
+
+/* line 188, ../sass/_reset.sass */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 192, ../sass/_reset.sass */
+*:before, * :after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 197, ../sass/_reset.sass */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 202, ../sass/_reset.sass */
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* clearfix simple verson */
+/* line 208, ../sass/_reset.sass */
+.clearfix {
+  zoom: 1;
+}
+/* line 210, ../sass/_reset.sass */
+.clearfix:after {
+  clear: both;
+  overflow: hidden;
+  content: "";
+  display: table;
+}
+/* line 215, ../sass/_reset.sass */
+.clearfix:before {
+  content: "";
+  display: table;
+}
+
+/* line 1, ../sass/_index.sass */
+body {
+  font-family: "微軟正黑體";
+  color: #444;
+}
+
+/* line 5, ../sass/_index.sass */
+img {
+  width: 100%;
+}
+
+/* line 8, ../sass/_index.sass */
+p {
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  margin: 0;
+}
+
+/* line 14, ../sass/_index.sass */
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+/* line 19, ../sass/_index.sass */
+h2 {
+  font-size: 18px;
+}
+
+/* line 22, ../sass/_index.sass */
+span {
+  font-size: 18px;
+}
+
+/*Common */
+/* line 28, ../sass/_index.sass */
+section {
+  position: relative;
+  background-color: #ffffff;
+}
+/* line 31, ../sass/_index.sass */
+section .section_title {
+  margin: auto 0;
+  text-align: center;
+}
+/* line 35, ../sass/_index.sass */
+section .container {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+/* line 39, ../sass/_index.sass */
+section .container_inner {
+  position: relative;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 44, ../sass/_index.sass */
+section .content {
+  padding-top: 80px;
+}
+
+/*top */
+/* line 49, ../sass/_index.sass */
+#top .top_photo {
+  background: url(../img/top.jpg) no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+  height: 1000px;
+}
+/* line 54, ../sass/_index.sass */
+#top .top_text {
+  width: 100%;
+  position: relative;
+  display: table;
+  overflow: hidden;
+}
+/* line 59, ../sass/_index.sass */
+#top .top_text .text {
+  position: relative;
+  margin: auto;
+}
+/* line 62, ../sass/_index.sass */
+#top .top_text .top_overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+}
+
+/*about */
+/* line 73, ../sass/_index.sass */
+#about {
+  background-color: #d8b373;
+  color: #fff;
+}
+/* line 76, ../sass/_index.sass */
+#about .container {
+  padding-bottom: 165px;
+}
+/* line 78, ../sass/_index.sass */
+#about .container .container_inner {
+  position: relative;
+  max-width: 780px;
+}
+/* line 81, ../sass/_index.sass */
+#about .container .container_inner .text {
+  padding-top: 80px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+/* line 86, ../sass/_index.sass */
+#about img {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  bottom: -80px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  z-index: 2;
+  left: calc(50% - 80px);
+}
+
+/*info */
+/* line 97, ../sass/_index.sass */
+#info {
+  color: #777;
+}
+/* line 99, ../sass/_index.sass */
+#info .info_title {
+  padding-bottom: 10px;
+}
+/* line 101, ../sass/_index.sass */
+#info .info {
+  position: relative;
+  float: left;
+  width: 390px;
+  text-align: center;
+  padding: 0 20px;
+}
+/* line 108, ../sass/_index.sass */
+#info .info .icon i {
+  padding: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+}
+/* line 113, ../sass/_index.sass */
+#info .info .icon i:hover {
+  color: #d6ae68;
+  border: 2px solid #d6ae68;
+}
+
+/*skills */
+/* line 118, ../sass/_index.sass */
+#skills {
+  background-color: #e4e4e4;
+}
+/* line 120, ../sass/_index.sass */
+#skills .skills {
+  position: relative;
+  float: left;
+  width: 585px;
+  padding: 0 10px;
+}
+/* line 126, ../sass/_index.sass */
+#skills .skills #SkillBox {
+  font-size: 20px;
+  width: 95%;
+  height: auto;
+  margin: 40px auto;
+  padding: 10px;
+}
+/* line 133, ../sass/_index.sass */
+#skills .skills .SkillBar {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  background-color: #333;
+  margin-bottom: 20px;
+}
+/* line 139, ../sass/_index.sass */
+#skills .skills .SkillBar span {
+  color: #fff;
+  font-size: 15px;
+}
+/* line 142, ../sass/_index.sass */
+#skills .skills .SkillBar .Skill-Area {
+  padding: 10px 10px 0 0;
+  line-height: 40px;
+}
+/* line 145, ../sass/_index.sass */
+#skills .skills .SkillBar .PercentText {
+  position: absolute;
+  right: 20px;
+  line-height: 40px;
+}
+/* line 149, ../sass/_index.sass */
+#skills .skills #Skill {
+  height: 40px;
+  position: absolute;
+  background-color: #d6ae68;
+  padding-left: 20px;
+}
+/* line 154, ../sass/_index.sass */
+#skills .skills #Skill-HTML {
+  width: 80%;
+  height: 40px;
+  position: absolute;
+  background-color: #d6ae68;
+  padding-left: 20px;
+}
+/* line 160, ../sass/_index.sass */
+#skills .skills #Skill-jQuery {
+  width: 40%;
+  height: 40px;
+  position: absolute;
+  background-color: #d6ae68;
+  padding-left: 20px;
+}
+/* line 166, ../sass/_index.sass */
+#skills .skills #Skill-Photoshop {
+  width: 90%;
+  height: 40px;
+  position: absolute;
+  background-color: #d6ae68;
+  padding-left: 20px;
+}
+/* line 172, ../sass/_index.sass */
+#skills .skills #Skill-Illustrator {
+  width: 80%;
+  height: 40px;
+  position: absolute;
+  background-color: #d6ae68;
+  padding-left: 20px;
+}
+
+/*works */
+/* line 183, ../sass/_index.sass */
+footer {
+  background-color: #2e2e2e;
+  color: #fff;
+  text-align: center;
+}
+/* line 187, ../sass/_index.sass */
+footer .footer {
+  position: relative;
+  padding: 30px 0;
+}
+/* line 190, ../sass/_index.sass */
+footer .footer span {
+  font-size: 14px;
+}
