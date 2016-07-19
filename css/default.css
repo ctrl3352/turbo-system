@@ -581,7 +581,7 @@ section .content {
 #works button {
   position: absolute;
   color: #fff;
-  background-color: #98763a;
+  background-color: #383838;
   font-size: 16px;
   border: 0;
   line-height: 60px;
@@ -613,7 +613,7 @@ section .content {
 #complex .complex_in ul li {
   position: relative;
   float: left;
-  width: 33%;
+  width: 20%;
 }
 
 /* line 219, ../sass/_index.sass */
