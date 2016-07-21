@@ -25,7 +25,7 @@ $(function(){
     function smoothScroll(target) {
         $('body,html').animate(
             {'scrollTop':target.offset().top},
-            500
+            900
         );
     }
 
