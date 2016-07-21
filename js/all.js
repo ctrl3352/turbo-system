@@ -2,10 +2,11 @@ $(function(){
     // 
     var duration = 300;
 
-    // images ----------------------------------------
-    var $images = $('#works p');
+    var $images = $('#works p'),
+        $scrollArrow = $('.cd-scroll-down');
 
-    // images 第一個圖片
+
+    // WEB WORKS
     $images.filter(':nth-child(1)')
         .on('mouseover', function(){
             $(this).find('span, strong, button').stop(true).animate({opacity: 1}, duration);
@@ -13,5 +14,18 @@ $(function(){
         .on('mouseout', function(){
             $(this).find('span, strong, button').stop(true).animate({opacity: 0}, duration);
         });
+        
+    //cd-scroll-down
+    $scrollArrow.on('click', function(event){
+        event.preventDefault();
+        smoothScroll($(this.hash));
+    });
+
+    function smoothScroll(target) {
+        $('body,html').animate(
+            {'scrollTop':target.offset().top},
+            300
+        );
+    }
 
 });

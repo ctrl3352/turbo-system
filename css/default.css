@@ -377,21 +377,59 @@ section .content {
   background: url(../img/top.jpg) no-repeat fixed;
   background-size: cover;
   color: #fff;
-  height: 1000px;
 }
-/* line 53, ../sass/_index.sass */
+/* line 52, ../sass/_index.sass */
 #top .top_text {
   width: 100%;
   position: relative;
-  display: table;
-  overflow: hidden;
 }
-/* line 58, ../sass/_index.sass */
+/* line 55, ../sass/_index.sass */
 #top .top_text .text {
   position: relative;
-  margin: auto;
+  padding: 400px 0 500px 0;
 }
-/* line 61, ../sass/_index.sass */
+/* line 58, ../sass/_index.sass */
+#top .top_text .text .text_in {
+  position: relative;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 2;
+}
+/* line 64, ../sass/_index.sass */
+#top .top_text .text .text_in h1 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: none;
+}
+/* line 68, ../sass/_index.sass */
+#top .top_text .text .text_in span {
+  font-size: 40px;
+  color: #ff8a5d;
+}
+/* line 71, ../sass/_index.sass */
+#top .top_text .text .text_in button {
+  color: #fff;
+  font-size: 16px;
+  background: none;
+  border-radius: 6px;
+  line-height: 50px;
+  padding: 0 60px;
+  border: 1px solid #fff;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+}
+/* line 82, ../sass/_index.sass */
+#top .top_text .text .text_in button:hover {
+  color: #000;
+  background: #fff;
+}
+/* line 87, ../sass/_index.sass */
 #top .top_text .top_overlay {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -403,28 +441,28 @@ section .content {
 }
 
 /*about */
-/* line 72, ../sass/_index.sass */
+/* line 97, ../sass/_index.sass */
 #about {
   background-color: #d8b373;
   color: #fff;
 }
-/* line 75, ../sass/_index.sass */
+/* line 100, ../sass/_index.sass */
 #about .container {
   padding-bottom: 165px;
 }
-/* line 77, ../sass/_index.sass */
+/* line 102, ../sass/_index.sass */
 #about .container .container_inner {
   position: relative;
   max-width: 780px;
 }
-/* line 80, ../sass/_index.sass */
+/* line 105, ../sass/_index.sass */
 #about .container .container_inner .text {
   padding-top: 80px;
   font-size: 20px;
   text-align: center;
   font-weight: bold;
 }
-/* line 85, ../sass/_index.sass */
+/* line 110, ../sass/_index.sass */
 #about img {
   width: 160px;
   height: 160px;
@@ -437,15 +475,15 @@ section .content {
 }
 
 /*info */
-/* line 96, ../sass/_index.sass */
+/* line 121, ../sass/_index.sass */
 #info {
   color: #777;
 }
-/* line 98, ../sass/_index.sass */
+/* line 123, ../sass/_index.sass */
 #info .info_title {
   padding-bottom: 10px;
 }
-/* line 100, ../sass/_index.sass */
+/* line 125, ../sass/_index.sass */
 #info .info {
   position: relative;
   float: left;
@@ -453,7 +491,7 @@ section .content {
   text-align: center;
   padding: 0 20px;
 }
-/* line 107, ../sass/_index.sass */
+/* line 132, ../sass/_index.sass */
 #info .info .icon i {
   padding: 40px;
   border: 2px solid #fff;
@@ -464,25 +502,25 @@ section .content {
   -ms-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
 }
-/* line 112, ../sass/_index.sass */
+/* line 137, ../sass/_index.sass */
 #info .info .icon i:hover {
   color: #d6ae68;
   border: 2px solid #d6ae68;
 }
 
 /*skills */
-/* line 117, ../sass/_index.sass */
+/* line 142, ../sass/_index.sass */
 #skills {
   background-color: #e4e4e4;
 }
-/* line 119, ../sass/_index.sass */
+/* line 144, ../sass/_index.sass */
 #skills .skills {
   position: relative;
   float: left;
   width: 585px;
   padding: 0 10px;
 }
-/* line 124, ../sass/_index.sass */
+/* line 149, ../sass/_index.sass */
 #skills .skills #SkillBox {
   font-size: 20px;
   width: 95%;
@@ -490,7 +528,7 @@ section .content {
   margin: 40px auto;
   padding: 10px;
 }
-/* line 130, ../sass/_index.sass */
+/* line 155, ../sass/_index.sass */
 #skills .skills .SkillBar {
   width: 100%;
   height: 40px;
@@ -498,59 +536,59 @@ section .content {
   background-color: #333;
   margin-bottom: 20px;
 }
-/* line 136, ../sass/_index.sass */
+/* line 161, ../sass/_index.sass */
 #skills .skills .SkillBar span {
   color: #fff;
   font-size: 15px;
 }
-/* line 139, ../sass/_index.sass */
+/* line 164, ../sass/_index.sass */
 #skills .skills .SkillBar .Skill-Area {
   padding: 10px 10px 0 0;
   line-height: 40px;
 }
-/* line 142, ../sass/_index.sass */
+/* line 167, ../sass/_index.sass */
 #skills .skills .SkillBar .PercentText {
   position: absolute;
   right: 20px;
   line-height: 40px;
 }
-/* line 146, ../sass/_index.sass */
+/* line 171, ../sass/_index.sass */
 #skills .skills #Skill {
   height: 40px;
   position: absolute;
   background-color: #d6ae68;
   padding-left: 20px;
 }
-/* line 151, ../sass/_index.sass */
+/* line 176, ../sass/_index.sass */
 #skills .skills .Skill-HTML {
   width: 80%;
 }
-/* line 153, ../sass/_index.sass */
+/* line 178, ../sass/_index.sass */
 #skills .skills .Skill-jQuery {
   width: 40%;
 }
-/* line 155, ../sass/_index.sass */
+/* line 180, ../sass/_index.sass */
 #skills .skills .Skill-Photoshop {
   width: 90%;
 }
-/* line 157, ../sass/_index.sass */
+/* line 182, ../sass/_index.sass */
 #skills .skills .Skill-Illustrator {
   width: 80%;
 }
 
 /*web */
-/* line 162, ../sass/_index.sass */
+/* line 186, ../sass/_index.sass */
 .content {
   position: relative;
 }
 
-/* line 164, ../sass/_index.sass */
+/* line 188, ../sass/_index.sass */
 .content_2 {
   position: relative;
   padding-top: 10px;
 }
 
-/* line 167, ../sass/_index.sass */
+/* line 191, ../sass/_index.sass */
 #works {
   position: relative;
   float: left;
@@ -558,7 +596,7 @@ section .content {
   padding: 0 10px;
   text-align: center;
 }
-/* line 173, ../sass/_index.sass */
+/* line 197, ../sass/_index.sass */
 #works span {
   position: absolute;
   width: calc(100% - 20px);
@@ -566,7 +604,7 @@ section .content {
   height: 100%;
   opacity: 0;
 }
-/* line 179, ../sass/_index.sass */
+/* line 203, ../sass/_index.sass */
 #works strong {
   position: absolute;
   font-size: 20px;
@@ -577,7 +615,7 @@ section .content {
   opacity: 0;
   color: #000;
 }
-/* line 188, ../sass/_index.sass */
+/* line 212, ../sass/_index.sass */
 #works button {
   position: absolute;
   color: #fff;
@@ -593,41 +631,41 @@ section .content {
 }
 
 /*banner */
-/* line 204, ../sass/_index.sass */
+/* line 226, ../sass/_index.sass */
 #complex {
   background-color: #484848;
   color: #fff;
 }
-/* line 207, ../sass/_index.sass */
+/* line 229, ../sass/_index.sass */
 #complex .complex_in {
   position: relative;
   float: left;
   width: 585px;
   padding: 0 10px;
 }
-/* line 212, ../sass/_index.sass */
+/* line 234, ../sass/_index.sass */
 #complex .complex_in ul {
   margin: 0;
 }
-/* line 214, ../sass/_index.sass */
+/* line 236, ../sass/_index.sass */
 #complex .complex_in ul li {
   position: relative;
   float: left;
   width: 20%;
 }
 
-/* line 219, ../sass/_index.sass */
+/* line 241, ../sass/_index.sass */
 footer {
   background-color: #2e2e2e;
   color: #fff;
   text-align: center;
 }
-/* line 223, ../sass/_index.sass */
+/* line 245, ../sass/_index.sass */
 footer .footer {
   position: relative;
   padding: 30px 0;
 }
-/* line 226, ../sass/_index.sass */
+/* line 248, ../sass/_index.sass */
 footer .footer span {
   font-size: 14px;
 }
