@@ -15,6 +15,7 @@ $(function(){
             $(this).find('span, strong, button').stop(true).animate({opacity: 0}, duration);
         });
         
+
     //cd-scroll-down
     $scrollArrow.on('click', function(event){
         event.preventDefault();
@@ -24,7 +25,7 @@ $(function(){
     function smoothScroll(target) {
         $('body,html').animate(
             {'scrollTop':target.offset().top},
-            300
+            500
         );
     }
 
