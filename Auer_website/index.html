@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>奧爾資訊</title>
+	<!-- Important Owl stylesheet -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/default.css">
+</head>
+<style>
+	@-webkit-keyframes hamber {
+		0%, 20%, 60%, 100%  { -webkit-transform: scale(1,1) rotate(0deg); }
+	  40%  { -webkit-transform: scale(1.2,1.2)  rotate(10deg); }
+		80% { -webkit-transform: scale(1.1,1.1) rotate(-5deg); }
+	}
+	@-webkit-keyframes arrow {
+		0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+	  40%  { -webkit-transform: translateY(-20px); }
+		80% { -webkit-transform: translateY(-10px); }
+	}
+	@-webkit-keyframes ring {
+	  0%, 100% {-webkit-transform: scale(1,1); opacity:1}
+	  75% {-webkit-transform: scale(1.2,1.2); opacity:0.4}
+	}
+	@-webkit-keyframes jump {
+		0% { -webkit-transform: scale(1, 1);}
+		50% { -webkit-transform: scale(0.85, 1.1) translateY(-30px);}
+	}
+	@-webkit-keyframes jump-shadow {
+		0% {transform: scale(1, 1);}
+		50% {transform: scale(0.7, 1) translateY(26px); background: rgba(0,0,0,.05);}
+	}
+</style>
+<body>
+<!--preloader-->
+	<div id="preloader">
+		<div id="animated_area">
+			<div id="logo_icon"></div>
+			<div id="logo_name"></div>
+		</div>
+	</div>
+<!--Header-->	
+	<header>
+		<div id="button_area">
+			<div class="menu_button">
+				<input type="checkbox" id="spinner-form" />
+			  <label for="spinner-form" class="spinner-spin">
+			    <div class="spinner diagonal part-1"></div>
+			    <div class="spinner horizontal"></div>
+			    <div class="spinner diagonal part-2"></div>
+			  </label>
+			</div>
+		<!--page_navigation-->
+			<nav class="page_navigation">
+				<ul>
+					<li><a href="#topmovie" class="active"><span class="label">Movie</span></a></li>
+					<li><a href="#introduce"><span class="label">Intro</span></a></li>
+					<li><a href="#news"><span class="label">News</span></a></li>
+					<li><a href="#games"><span class="label">Games</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	<!--Menu-->
+		<div id="menu">
+			<div class="drill-down">
+			  <ul class="menu theme-drill">
+			    <li><a href="/">首頁 / Home</a></li>
+			    <li>
+			      <a class="menu-item">關於奧爾 / About Auer<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+			      <ul class="menu-child">
+			        <li><a href="/">公司簡介</a></li>
+			        <li><a href="/">歷史沿革</a></li>
+			        <li><a href="/">得獎紀錄</a></li>
+			        <li><a href="/">工作環境</a></li>
+			      </ul>
+			    </li>
+			    <li><a href="/">遊戲介紹 / Our Games</a></li>
+			    <li><a href="/">最新消息 / Our News</a></li>
+			    <li>
+			      <a class="menu-item">聯絡我們 / Contact Us <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+			      <ul class="menu-child">
+			        <li><a href="/">聯絡資訊</a></li>
+			        <li><a href="/">人才招募</a></li>
+			      </ul>
+			    </li>
+			    <li>
+			      <a class="menu-item">投資人專區 / <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+			      <ul class="menu-child">
+			        <li><a href="/">公司基本資料</a></li>
+			        <li><a href="/">公司治理</a></li>
+			        <li>
+					      <a class="menu-item">財務資訊 / <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+					      <ul class="menu-child">
+					        <li><a href="/">月營收報告</a></li>
+					        <li><a href="/">季度財務報告</a></li>
+					        <li><a href="/">公司年報</a></li>
+					      </ul>
+					    </li>
+					    <li>
+					      <a class="menu-item">股務資訊 / <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+					      <ul class="menu-child">
+					        <li><a href="/">股東會</a></li>
+					        <li><a href="/">股利資訊</a></li>
+					        <li><a href="/">股價資訊</a></li>
+					        <li><a href="/">重大消息</a></li>
+					        <li><a href="/">法人說明會</a></li>
+					        <li><a href="/">問答集(FAQ)</a></li>
+					      </ul>
+					    </li>
+			        <li><a href="/">利害關係人</a></li>
+			        <li><a href="/">聯絡人</a></li>
+			      </ul>
+			    </li>
+			  </ul>
+			</div>
+		</div>
+	</header>
+<!--Maincontent-->	
+<div class="wrapper">
+<!--影片-->
+	<section id="topmovie" class="cd-section">
+		<div id="logo">
+			<img src="img/index/header/logo.png">
+		</div>
+		<div class="movie_content">
+			<!--影片放置處-->
+		</div>
+		<div class="edge_bottom">
+			<div class="arrow_down">
+				<img src="img/index/topmovie/arrow_down.png">
+			</div>
+			<img src="img/edge_img/wave_top.png">
+		</div>
+	</section>
+
+<!--公司簡介-->
+	<section id="introduce" class="cd-section">
+		<div class="section_title">
+			<h1>企業介紹<br>
+			<span>OUR COMPANY</span></h1>
+		</div>
+		<div class="container container_inner">
+				<div id="company_carousel" class="owl-carousel">
+					<div class="item wow bounceInUp">
+						<div class="item_img">
+							<div class="inner_item_img" id="introduce">
+								<span>
+									<a href="#" class="fa fa-link"></a>
+								</span>
+							</div>
+						</div>
+						<h1>公司簡介</h1>
+						<p class="box">暫代內容暫代內容暫代內容暫代內容</p>
+					</div>
+					<div class="item wow bounceInUp" data-wow-delay="0.2s">
+						<div class="item_img">
+							<div class="inner_item_img" id="partner">
+								<span>
+									<a href="#" class="fa fa-link"></a>
+								</span>
+							</div>
+						</div>
+						<h1>企業夥伴</h1>
+						<p class="box">暫代內容暫代內容暫代內容暫代內容</p>
+					</div>
+					<div class="item wow bounceInUp" data-wow-delay="0.4s">
+						<div class="item_img">
+							<div class="inner_item_img" id="surroundings">
+								<span>
+									<a href="#" class="fa fa-link"></a>
+								</span>
+							</div>
+						</div>
+						<h1>工作環境</h1>
+						<p class="box">暫代內容暫代內容暫代內容暫代內容</p>
+					</div>
+					<div class="item wow bounceInUp" data-wow-delay="0.6s">
+						<div class="item_img">
+							<div class="inner_item_img" id="culture">
+								<span>
+									<a href="#" class="fa fa-link"></a>
+								</span>
+							</div>
+						</div>
+						<h1>企業文化</h1>
+						<p class="box">暫代內容暫代內容暫代內容暫代內容</p>
+					</div>
+				</div>			
+		</div>
+		<div class="line">
+			<img src="img/index/introduce/white_line.png">
+		</div>	
+	</section>
+
+<!--最新消息-->
+	<section id="news" class="cd-section">
+		<div class="news_img">
+			<img src="img/edge_img/wave_bottom.png">
+		</div>
+		<div class="section_title">
+			<h1>最新消息<br>
+			<span>OUR NEWS</span></h1>
+		</div>
+		<div class="news_top">
+			<img src="img/edge_img/white_01_top.png">
+		</div>
+		<div class="container">
+			<div class="container_inner clearfix">
+				<div id="break_news" class="content-col wow fadeInUp">
+					<div class="news_img_area">
+						<div class="title_area">
+							<a href="#">《天使帝國-幻獸之月》Android刪檔封測開跑</a>
+						</div>
+						<img src="img/index/news/break_news_img.jpg">
+					</div>
+					<div class="news_content">
+						<p><span>2016/06/01 - </span>全亞洲地區累積下載突破400萬次的《Hortensia SAGA蒼之騎士團》繁體中文版，於今(1)日公告進行上線以來首度大改版並同步追加第二部【承襲宿命之人】！全新熱血團戰功能及豪華獎勵系統登場！</p>
+					</div>
+				</div>
+				<div id="news_list" class="content-col">
+					<ul>
+						<li class="news-item clearfix wow fadeInUp" data-wow-delay="0.2s">
+							<div class="info-img">
+								<img src="img/index/news/001.jpg">
+							</div>
+							<div class="info-text">
+								<a href="#">李大娘勇奪亞軍？！《仙劍客棧》人氣女角票選出爐!
+								</a>
+								<p><span>2016/06/01 - </span>在手機遊戲競爭激烈的市場現況中，以自製研發為核心的奧爾資訊多媒體股份有限公司(以下...</p>
+							</div>
+						</li>
+						<li class="news-item clearfix wow fadeInUp" data-wow-delay="0.4s">
+							<div class="info-img">
+									<img src="img/index/news/002.jpg">
+							</div>
+							<div class="info-text">
+								<a href="#">仙劍全明星出擊《仙劍客棧》雙平台同步上市</a>
+								<p><span>2016/06/01 - </span>奧爾資訊總經理李熾榮表示，對手機遊戲玩家來說，眾所熟悉的IP是一大加分。在策略合作夥伴大宇資訊的支持之下，我們以由大宇資訊授權的《仙劍客...</p>
+							</div>
+						</li>
+						<li class="news-item clearfix wow fadeInUp" data-wow-delay="0.6s">
+							<div class="info-img">
+								<img src="img/index/news/003.jpg" alt="">
+							</div>
+							<div class="info-text">
+								<a href="#">《Hortensia SAGA蒼之騎士團》繁中版首度大改版第二部全新SSR角色與全新熱血團戰機能隆重登場！</a>
+								<p><span>2016/06/01 - </span>去年此遊戲在中國大陸首發時...</p>
+							</div>
+						</li>					
+					</ul>
+					<a class="read_more page_button" href="#">瞭解更多</a>
+				</div>
+			</div>
+		</div>
+		<div class="news_bottom">
+			<img src="img/edge_img/white_01_bottom.png">
+		</div>
+		<div class="news_top">
+			<img src="img/edge_img/white_02_top.png">
+		</div>
+	</section>
+<!--遊戲-->
+	<section id="games" class="cd-section">
+		<div class="section_title">
+			<h1>遊戲介紹<br>
+			<span>OUR GAMES</span></h1>
+		</div>
+		<div class="container">
+			<div id="games_carousel">
+				<div class="games_info_img wow fadeInUp">
+					<div class="games_info_jpg">
+						<div class="button_bg">
+							<a class="read_more" href="#">瞭解更多</a>
+						</div>
+						<img src="img/index/games/games_info_1.jpg">
+					</div>
+				</div>
+				<div class="games_info_img wow fadeInUp" data-wow-delay="0.2s">
+					<div class="games_info_jpg">
+						<div class="button_bg">
+							<a class="read_more" href="#">瞭解更多</a>
+						</div>
+						<img src="img/index/games/games_info_2.jpg">
+					</div>
+				</div>
+				<div class="games_info_img wow fadeInUp" data-wow-delay="0.4s"">
+					<div class="games_info_jpg">
+						<div class="button_bg">
+							<a class="read_more" href="#">瞭解更多</a>
+						</div>
+						<img src="img/index/games/games_info_3.jpg">
+					</div>
+				</div>
+				<div class="games_info_img wow fadeInUp" data-wow-delay="0.4s"">
+					<div class="games_info_jpg">
+						<div class="button_bg">
+							<a class="read_more" href="#">瞭解更多</a>
+						</div>
+						<img src="img/index/games/games_info_2.jpg">
+					</div>
+				</div>
+				<div class="games_info_img wow fadeInUp" data-wow-delay="0.2s"">
+					<div class="games_info_jpg">
+						<div class="button_bg">
+							<a class="read_more" href="#">瞭解更多</a>
+						</div>
+						<img src="img/index/games/games_info_3.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!--置底資訊-->
+	<footer>
+		<a class="gotop" href="#"><img src="img/index/footer/gotop.png"></a>
+		<div class="container">
+			<div class="container_inner clearfix">
+				<div class="footer_logo footer_both">
+					<img src="img/index/footer/logo.jpg">
+				</div>
+				<div class="footer_both language"><img src="img/index/footer/language.jpg">
+				</div>
+				<div class="footer_info">
+					<ul class="clearfix">
+						<li><a href="#">隱私權政策</a></li>
+						<li><a href="#">使用條款</a></li>
+						<li><a href="#">工作機會</a></li>
+						<li><a href="#">連絡我們</a></li>
+					</ul>
+					<div class="icon">
+						<a id="fb" href="#"></a>
+						<a id="youtube" href="#"></a>
+						<a id="twitter" href="#"></a>
+					</div>
+					<span class="copy">本網所提及之公司名稱與商標均屬原註冊公司所有<br>
+						Copyright © 2012 by Auer Media & Entertainment Corp., All Rights Reserved</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/all.js"></script>
+<script>
+new WOW().init();
+	
+$('#company_carousel').owlCarousel({
+    loop:true,
+    margin:60,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        700:{
+            items:2
+        },
+        1100:{
+        		items:4,
+            loop:false,
+            dots:false,
+        }
+    }
+})
+
+$('#games_carousel').owlCarousel({
+    center: true,
+    items:5,
+    loop:true,
+    margin:0,
+    autoHeight:true,
+    responsive:{
+    		0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+</script>
+</html>
+
