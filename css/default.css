@@ -1153,25 +1153,31 @@ footer .footer span {
     padding: 50px 30px;
   }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 420px) {
   /* line 151, ../sass/_respensive.sass */
   section .container_inner {
-    max-width: 400px;
+    max-width: 380px;
   }
 
   /* line 153, ../sass/_respensive.sass */
   #info .info {
-    width: 400px;
+    width: 380px;
   }
 
   /* line 155, ../sass/_respensive.sass */
   #skills .skills {
-    width: 400px;
+    width: 380px;
   }
 
   /* line 157, ../sass/_respensive.sass */
   #works {
-    width: 400px;
+    width: 380px;
     padding: 0 30px;
+  }
+
+  /* line 160, ../sass/_respensive.sass */
+  #complex .complex_in {
+    width: 380px;
+    padding: 50px 30px;
   }
 }
