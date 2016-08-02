@@ -1181,3 +1181,31 @@ footer .footer span {
     padding: 50px 30px;
   }
 }
+@media only screen and (max-width: 380px) {
+  /* line 165, ../sass/_respensive.sass */
+  section .container_inner {
+    max-width: 320px;
+  }
+
+  /* line 167, ../sass/_respensive.sass */
+  #info .info {
+    width: 320px;
+  }
+
+  /* line 169, ../sass/_respensive.sass */
+  #skills .skills {
+    width: 320px;
+  }
+
+  /* line 171, ../sass/_respensive.sass */
+  #works {
+    width: 320px;
+    padding: 0 30px;
+  }
+
+  /* line 174, ../sass/_respensive.sass */
+  #complex .complex_in {
+    width: 320px;
+    padding: 50px 30px;
+  }
+}
