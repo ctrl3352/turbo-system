@@ -1153,3 +1153,25 @@ footer .footer span {
     padding: 50px 30px;
   }
 }
+@media only screen and (max-width: 450px) {
+  /* line 151, ../sass/_respensive.sass */
+  section .container_inner {
+    max-width: 400px;
+  }
+
+  /* line 153, ../sass/_respensive.sass */
+  #info .info {
+    width: 400px;
+  }
+
+  /* line 155, ../sass/_respensive.sass */
+  #skills .skills {
+    width: 400px;
+  }
+
+  /* line 157, ../sass/_respensive.sass */
+  #works {
+    width: 400px;
+    padding: 0 30px;
+  }
+}
