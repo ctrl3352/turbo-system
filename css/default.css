@@ -885,259 +885,269 @@ footer .footer span {
 
 @media only screen and (max-width: 1200px) {
   /* line 2, ../sass/_respensive.sass */
+  #top .top_photo {
+    background-position: 50%;
+  }
+
+  /* line 4, ../sass/_respensive.sass */
   #top .top_text .text .text_in {
     max-width: 900px;
   }
 
-  /* line 4, ../sass/_respensive.sass */
+  /* line 6, ../sass/_respensive.sass */
   section .container_inner {
     max-width: 900px;
   }
 
-  /* line 6, ../sass/_respensive.sass */
+  /* line 8, ../sass/_respensive.sass */
   #info .info {
     width: 300px;
   }
 
-  /* line 9, ../sass/_respensive.sass */
+  /* line 11, ../sass/_respensive.sass */
   #skills .skills {
     width: 450px;
   }
 
-  /* line 12, ../sass/_respensive.sass */
+  /* line 14, ../sass/_respensive.sass */
   #works {
     width: 290px;
   }
 
-  /* line 15, ../sass/_respensive.sass */
+  /* line 17, ../sass/_respensive.sass */
   #complex .complex_in {
     width: 450px;
   }
 }
 @media only screen and (max-width: 980px) {
-  /* line 21, ../sass/_respensive.sass */
+  /* line 26, ../sass/_respensive.sass */
   #top .top_text .text {
     padding: 350px 0 380px 0;
   }
-  /* line 23, ../sass/_respensive.sass */
+  /* line 28, ../sass/_respensive.sass */
   #top .top_text .text .text_in {
     max-width: 680px;
   }
 
-  /* line 25, ../sass/_respensive.sass */
+  /* line 30, ../sass/_respensive.sass */
   #about .container .container_inner .text {
     font-size: 15pt;
   }
 
-  /* line 27, ../sass/_respensive.sass */
+  /* line 32, ../sass/_respensive.sass */
   section .container_inner {
     max-width: 750px;
   }
 
-  /* line 29, ../sass/_respensive.sass */
+  /* line 34, ../sass/_respensive.sass */
   #info .info {
     width: 250px;
   }
 
-  /* line 32, ../sass/_respensive.sass */
+  /* line 37, ../sass/_respensive.sass */
   #skills .skills {
     width: 750px;
     padding: 20px;
   }
-  /* line 35, ../sass/_respensive.sass */
+  /* line 40, ../sass/_respensive.sass */
   #skills .skills h2 {
     text-align: center;
   }
-  /* line 37, ../sass/_respensive.sass */
+  /* line 42, ../sass/_respensive.sass */
   #skills .skills p {
     text-align: center;
   }
 
-  /* line 39, ../sass/_respensive.sass */
+  /* line 44, ../sass/_respensive.sass */
   #works {
     width: 240px;
   }
-  /* line 43, ../sass/_respensive.sass */
+  /* line 48, ../sass/_respensive.sass */
   #works p button {
     font-size: 10pt;
     line-height: 50px;
   }
-  /* line 46, ../sass/_respensive.sass */
+  /* line 51, ../sass/_respensive.sass */
   #works p strong {
     font-size: 12pt;
     font-weight: bolder;
   }
 
-  /* line 49, ../sass/_respensive.sass */
+  /* line 54, ../sass/_respensive.sass */
   #complex .complex_in {
     width: 750px;
   }
 
-  /* line 51, ../sass/_respensive.sass */
+  /* line 56, ../sass/_respensive.sass */
   #complex .complex_mov {
     padding-top: 50px;
   }
 }
 @media only screen and (max-width: 770px) {
-  /* line 56, ../sass/_respensive.sass */
+  /* line 61, ../sass/_respensive.sass */
   section .container_inner {
     max-width: 500px;
   }
 
-  /* line 58, ../sass/_respensive.sass */
+  /* line 63, ../sass/_respensive.sass */
   #info .info {
     width: 500px;
     padding: 20px;
   }
 
-  /* line 61, ../sass/_respensive.sass */
+  /* line 66, ../sass/_respensive.sass */
   #skills .skills {
     width: 500px;
     padding: 20px;
   }
 
-  /* line 64, ../sass/_respensive.sass */
+  /* line 69, ../sass/_respensive.sass */
   #works {
     width: 500px;
     margin: 10px 0;
   }
-  /* line 68, ../sass/_respensive.sass */
+  /* line 73, ../sass/_respensive.sass */
   #works p .botton_in {
     top: 55%;
   }
-  /* line 70, ../sass/_respensive.sass */
+  /* line 75, ../sass/_respensive.sass */
   #works p .botton_in button {
     font-size: 12pt;
     line-height: 50px;
   }
-  /* line 73, ../sass/_respensive.sass */
+  /* line 78, ../sass/_respensive.sass */
   #works p strong {
     font-size: 20pt;
     top: 40%;
   }
 
-  /* line 76, ../sass/_respensive.sass */
+  /* line 81, ../sass/_respensive.sass */
   #complex .complex_in {
     width: 500px;
   }
 }
 @media only screen and (max-width: 720px) {
-  /* line 81, ../sass/_respensive.sass */
+  /* line 86, ../sass/_respensive.sass */
+  #top .top_photo {
+    background-position: 55%;
+  }
+
+  /* line 88, ../sass/_respensive.sass */
   #top .top_text .text {
     padding: 300px 0 300px 0;
   }
-  /* line 83, ../sass/_respensive.sass */
+  /* line 90, ../sass/_respensive.sass */
   #top .top_text .text .text_in {
     max-width: 500px;
   }
-  /* line 85, ../sass/_respensive.sass */
+  /* line 92, ../sass/_respensive.sass */
   #top .top_text .text .text_in h1 {
     font-size: 28px;
   }
 
-  /* line 87, ../sass/_respensive.sass */
+  /* line 94, ../sass/_respensive.sass */
   section .content {
     padding-top: 30px;
   }
 
-  /* line 89, ../sass/_respensive.sass */
+  /* line 96, ../sass/_respensive.sass */
   #about .container .container_inner {
     max-width: 500px;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 94, ../sass/_respensive.sass */
+  /* line 101, ../sass/_respensive.sass */
   #top .top_text .text .text_in {
     max-width: 450px;
   }
-  /* line 96, ../sass/_respensive.sass */
+  /* line 103, ../sass/_respensive.sass */
   #top .top_text .text .text_in span {
     font-size: 28px;
   }
 
-  /* line 98, ../sass/_respensive.sass */
+  /* line 105, ../sass/_respensive.sass */
   #about .container .container_inner .text {
     font-size: 12pt;
   }
 
-  /* line 100, ../sass/_respensive.sass */
+  /* line 107, ../sass/_respensive.sass */
   section .container_inner {
     max-width: 450px;
   }
 
-  /* line 102, ../sass/_respensive.sass */
+  /* line 109, ../sass/_respensive.sass */
   #info .info {
     width: 450px;
   }
 
-  /* line 104, ../sass/_respensive.sass */
+  /* line 111, ../sass/_respensive.sass */
   #skills .skills {
     width: 450px;
   }
 
-  /* line 106, ../sass/_respensive.sass */
+  /* line 113, ../sass/_respensive.sass */
   #works {
     width: 450px;
     padding: 0 30px;
   }
 
-  /* line 109, ../sass/_respensive.sass */
+  /* line 116, ../sass/_respensive.sass */
   #complex .complex_in {
     width: 450px;
     padding: 50px 30px;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 115, ../sass/_respensive.sass */
+  /* line 122, ../sass/_respensive.sass */
   #top .top_text .text .text_in {
     max-width: 400px;
   }
-  /* line 117, ../sass/_respensive.sass */
+  /* line 124, ../sass/_respensive.sass */
   #top .top_text .text .text_in span {
     font-size: 28px;
   }
 
-  /* line 119, ../sass/_respensive.sass */
+  /* line 126, ../sass/_respensive.sass */
   #about .container .container_inner {
     max-width: 420px;
   }
 
-  /* line 121, ../sass/_respensive.sass */
+  /* line 128, ../sass/_respensive.sass */
   section .container_inner {
     max-width: 410px;
   }
 
-  /* line 123, ../sass/_respensive.sass */
+  /* line 130, ../sass/_respensive.sass */
   #info .info {
     width: 410px;
   }
 
-  /* line 125, ../sass/_respensive.sass */
+  /* line 132, ../sass/_respensive.sass */
   #skills .skills {
     width: 410px;
   }
 
-  /* line 127, ../sass/_respensive.sass */
+  /* line 134, ../sass/_respensive.sass */
   #works {
     width: 410px;
     padding: 0 30px;
   }
-  /* line 131, ../sass/_respensive.sass */
+  /* line 138, ../sass/_respensive.sass */
   #works p .botton_in {
     top: 50%;
   }
-  /* line 133, ../sass/_respensive.sass */
+  /* line 140, ../sass/_respensive.sass */
   #works p .botton_in button {
     font-size: 10pt;
     line-height: 50px;
   }
-  /* line 136, ../sass/_respensive.sass */
+  /* line 143, ../sass/_respensive.sass */
   #works p strong {
     font-size: 16pt;
     top: 35%;
   }
 
-  /* line 139, ../sass/_respensive.sass */
+  /* line 146, ../sass/_respensive.sass */
   #complex .complex_in {
     width: 410px;
     padding: 50px 30px;
